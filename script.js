@@ -1,18 +1,3 @@
-function previewImage() {
-    var file = document.getElementById('fileUpload').files[0];
-    var reader = new FileReader();
-    reader.onloadend = function() {
-        document.getElementById('imagePreview').style.display = 'block';
-        document.getElementById('imagePreview').src = reader.result;
-        document.querySelector('.upload-instructions').style.display = 'none';
-    }
-    if (file) {
-        reader.readAsDataURL(file);
-    } else {
-        document.getElementById('imagePreview').style.display = 'none';
-        document.querySelector('.upload-instructions').style.display = 'block';
-    }
-}
 
 document.getElementById('fileUpload').addEventListener('change', function(event) {
     const reader = new FileReader();
