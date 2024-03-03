@@ -225,6 +225,22 @@ input[type='text'], textarea {
     overflow: hidden;
     top: 175px;
 }
+.maskBM {
+    position: absolute;
+    width: 100px; /* Width of the visible area */
+    height: 100px; /* Height of the visible area */
+    overflow: hidden;
+    top: 160px;
+    right: 115px;
+}
+.maskWM {
+    position: absolute;
+    width: 100px; /* Width of the visible area */
+    height: 100px; /* Height of the visible area */
+    overflow: hidden;
+    top: 160px;
+    right: 90px;
+}
 
 .image-overlay {
     width: 100%; /* Width of the overlay */
@@ -235,6 +251,22 @@ input[type='text'], textarea {
     background-position: center;
 }
 .image-overlayB {
+    width: 100%; /* Width of the overlay */
+    height: 100%; /* Height of the overlay */
+    position: absolute;
+    background-size: contain; /* Use 'cover' to fill the area */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-overlayBM {
+    width: 100%; /* Width of the overlay */
+    height: 100%; /* Height of the overlay */
+    position: absolute;
+    background-size: contain; /* Use 'cover' to fill the area */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-overlayWM {
     width: 100%; /* Width of the overlay */
     height: 100%; /* Height of the overlay */
     position: absolute;
