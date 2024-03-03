@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Design </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="header-logo">
+    </header>
+<section class="content">
+    <div class="infoBox">
+        <div class="upload-container" onclick="document.getElementById('fileUpload').click();">
+            <div class="upload-instructions">Add Image</div>
+            <img id="imagePreview" src="#" alt="Image preview" />
+            <input type="file" id="fileUpload" accept="image/*" onchange="previewImage();" />
+        </div>
+        <div class="uploadInfo">
+            <label for="title">Title (required)</label>
+            <input type="text" id="title" placeholder="Example: Great Wave of Trees">
+            <label for="title">Discription</label>
+            <textarea type="text" id="title" placeholder="Write something.." rows="2"></textarea>
+        </div>
+    </div>
+
+    <h1>Product Previews</h1>
+    
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="shirt-container-white" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">White T-shirt</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="shirt-container-black" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">Black T-shirt</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="hoodie-container" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">Black-Hoodie</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="clothbag-container-white" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">White cloth bag</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="clothbag-container-black" id="shirtContainer">
+                    <div class="maskB">
+                        <div class="image-overlayB" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">Black cloth bag</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="notebook-container" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">NoteBook</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="poster-container" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">Poster</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="mug-container-black" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">Black Mug</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="mug-container-white" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">White Mug</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="sweetshirt-container-white" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">White SweetShirt</h3>
+            <div class="product-action">
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image-wrapper">
+                <div class="sweetshirt-container-black" id="shirtContainer">
+                    <div class="mask">
+                        <div class="image-overlay" id="imageOverlay"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="product-title">White SweetShirt</h3>
+            <div class="product-action">
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    © 2024 Printavio
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
