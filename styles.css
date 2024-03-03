@@ -289,22 +289,24 @@ input[type='text'], textarea {
     cursor: pointer;
 }
 
-.product-action button {
+ button {
     width: 100px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #1c1c44;
     border: 2px solid #1c1c44;
-    color: #1c1c44;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
     padding-top: 0px;
+    width: 190px;
+    height: 45px;
   }
-  .product-action button:hover {
-    background-color: #1c1c44;
-    color: #fff;
+ button:hover {
+    background-color: #fff;
+    color: #1c1c44;
   }
 
   .edit-controls {
